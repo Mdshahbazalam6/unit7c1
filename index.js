@@ -14,8 +14,9 @@ app.get('/products',(req,res)=>{
 })
 
 app.post("/products/create",(req,res)=>{
-    const {product} = req.body
-    user.push(product)
+    const {products} = req.body
+    console.log(products)
+    user.push(products)
     res.status(200).send("Item got added")
 })
 
