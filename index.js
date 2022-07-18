@@ -28,7 +28,11 @@ app.delete("/products/:id",(req,res)=>{
 
 
 
-
+// {
+//     "products":{
+//         "price":1000
+//     }
+// }
 
 
 
